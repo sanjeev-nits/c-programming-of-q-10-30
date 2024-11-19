@@ -10,19 +10,6 @@ void main()
     printf("entre the %d array",n);
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
-
-    for(i=0;i<n;i++)
-    {
-        for(j=0;j<n;j++)
-        {
-            if(a[j]>a[j+1])
-            {
-                c=a[j];
-                a[j]=a[j+1];
-                a[j+1]=c;
-            }
-        }
-    }
     printf("entre the number you want to search ");
     scanf("%d",&data);
 
