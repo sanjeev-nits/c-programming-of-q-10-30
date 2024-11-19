@@ -2,7 +2,7 @@
 
 void main()
 {
-int a[100],i,j,c,n,data,start=0,end,mid,found;
+int a[100],i,j,c,n,data,start=0,end,mid,found=0;
 
 printf("entre the value of n ");
 scanf("%d",&n);
